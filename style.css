@@ -164,9 +164,7 @@ body {
   background: var(--secondary);
   color: #fff;
 }
-/* =====================================================
-   ЛАБ 4: FLEXBOX + GRID LAYOUT
-   ===================================================== */
+
 
 a {
   color: inherit;
@@ -182,7 +180,7 @@ body {
   padding: 0;
 }
 
-/* ---------- HEADER + NAV (Flexbox) ---------- */
+
 .site-header {
   background: var(--header);
   color: #fff;
@@ -247,7 +245,7 @@ body {
   color: #cfd8dc;
 }
 
-/* ---------- PAGE LAYOUT (Grid) ---------- */
+
 .layout {
   max-width: 1200px;
   margin: 32px auto;
@@ -262,7 +260,6 @@ body {
   min-width: 0;
 }
 
-/* ---------- INFO CARDS (Grid, 3 багана) ---------- */
 .info-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -289,8 +286,7 @@ body {
   font-size: 14px;
 }
 
-/* ---------- FORM GRID (3 багана) ---------- */
-/* Өмнөх max-width: 480px-ийг арилгаж, grid болгоно */
+
 .form {
   max-width: none;
   margin: 0;
@@ -320,7 +316,6 @@ body {
   margin-top: 4px;
 }
 
-/* ---------- SIDEBAR ---------- */
 .sidebar {
   display: grid;
   gap: 20px;
@@ -348,7 +343,7 @@ body {
   font-size: 14px;
 }
 
-/* ---------- FOOTER (Flexbox) ---------- */
+
 .site-footer {
   background: var(--header);
   color: #cfd8dc;
@@ -388,7 +383,6 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* ---------- RESPONSIVE ---------- */
 @media (max-width: 960px) {
   .layout {
     grid-template-columns: 1fr;
